@@ -1,0 +1,158 @@
+@media (min-width: 576px) {
+    .header {
+        position: absolute;
+        background-color: transparent;
+    }
+
+    .header-logo {
+        width: 200px;
+    }
+
+    .fs-big {
+        font-size: calc(3.2rem + .9vw) !important;
+    }
+
+    .ff-artely.fs-big {
+        font-size: calc(2.5rem + .9vw) !important;
+    }
+    .fs-bigger {
+        font-size: calc(5rem + .9vw) !important;
+    }
+
+    .otel-list {
+        margin-top: -150px;
+    }
+
+    .summer-surprise {
+        background-image: url(/Content/upload/yaz-senlikleri.jpg);
+    }
+
+    .bird-bg {
+        position: absolute;
+        left: 8%;
+        background-image: url(/Content/upload/bird.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center right;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+    }
+
+    .icon-sunrise {
+        width: 150px;
+        height: 150px;
+    }
+
+    .text-vertical {
+        font-size: calc(5rem + .9vw) !important;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        writing-mode: vertical-lr;
+        text-orientation: sideways;
+        white-space: nowrap;
+        text-align: center;
+        transform: translateX(87px) rotate(-180deg);
+        transform-origin: center;
+        line-height: 0;
+    }
+
+    .text-vertical-left {
+        transform: rotate(0deg);
+    }
+
+    .icon-sports {
+        width: 150px;
+        height: 150px;
+    }
+
+    .bg-bird {
+        width: 450px;
+        height: 450px;
+        top: -130px;
+        left: -50px;
+    }
+
+    .bg-bird-blue {
+        width: 450px;
+        height: 450px;
+        top: -200px;
+        left: -50px;
+    }
+
+    .bg-bird-gray {
+        width: 450px;
+        height: 450px;
+        top: -200px;
+        right: 200px;
+    }
+
+    .swiper-honeymoon,
+    .swiper-long-stay,
+    .swiper-aboutus {
+        width: 82%;
+        padding-bottom: 100px;
+    }
+
+    .swiper-honeymoon-block,
+    .swiper-long-stay-block,
+    .swiper-aboutus-block {
+        display: block;
+    }
+
+    .honeymoon-opportunities {
+        bottom: 0;
+        left: 50px;
+        display: block;
+    }
+
+    .bg-child-club {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(3, 110, 114, 1) 30%, rgba(3, 110, 114, 1) 90%);
+    }
+
+    .swiper-child-club-nav .text-success {
+        color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+    }
+
+    .swiper-child-club-nav {
+        justify-content: center;
+        position: absolute;
+        bottom: -35px;
+    }
+
+    .bg-light-after::after {
+        position: absolute;
+        content: "";
+        right: -200px;
+        width: 200px;
+        height: 100%;
+        bottom: 0;
+        top: 0;
+        background-color: #f4f4f4 !important;
+    }
+
+    .bg-light-before::after {
+        position: absolute;
+        content: "";
+        left: -200px;
+        width: 200px;
+        height: 100%;
+        bottom: 0;
+        top: 0;
+        background-color: #f4f4f4 !important;
+    }
+    .konaklama-text{
+        font-size: calc(4rem + .9vw) !important;
+        transform: translateX(0px) rotate(-180deg)!important;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

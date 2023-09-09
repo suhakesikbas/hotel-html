@@ -1,0 +1,608 @@
+@font-face {
+    font-family: 'ArtelyInks';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://louisbarranqueiro.github.io/reapop/static/fonts/ArtelyInks.eot');
+    src: url('https://louisbarranqueiro.github.io/reapop/static/fonts/ArtelyInks.eot?#iefix') format('embedded-opentype'),
+        url('https://louisbarranqueiro.github.io/reapop/static/fonts/ArtelyInks.woff') format('woff'),
+        url('https://louisbarranqueiro.github.io/reapop/static/fonts/ArtelyInks.ttf') format('truetype');
+}
+
+.ff-cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.ff-artely {
+    font-family: 'ArtelyInks';
+}
+
+.fs-big {
+    font-size: calc(2.5rem + .9vw) !important;
+}
+
+.fs-bigger {
+    font-size: calc(3.5rem + .9vw) !important;
+}
+
+.text-vertical {
+    font-size: calc(3rem + .9vw) !important;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    display: block;
+    z-index: 2;
+}
+
+.text-alanya {
+    color: #0e8ebf;
+}
+
+.text-side {
+    color: #fc8f0f;
+}
+
+.text-kemer {
+    color: #066123;
+}
+
+.text-bodrum {
+    color: #2e3091;
+}
+
+.text-gray {
+    color: #666 !important;
+}
+
+.text-light {
+    color: #878787 !important;
+}
+
+.text-primary {
+    color: #0e8ebe !important;
+}
+
+.summer-surprise {
+    background-image: none;
+}
+
+.bg-light {
+    background-color: #f4f4f4 !important;
+}
+
+.mt-n1 {
+    margin-top: -30px;
+}
+
+:root {
+    --bs-green: #036E72;
+    --bs-success-rgb: 3, 110, 114;
+    --bs-warning-rgb: 255, 222, 0;
+    --bs-dark-rgb: 102, 102, 102;
+    --bs-border-radius: 0rem;
+    --bs-border-radius-sm: 0rem;
+    --bs-border-radius-lg: 0rem;
+    --bs-border-radius-xl: 0rem;
+    --bs-border-radius-xxl: 0rem;
+    --bs-border-radius-2xl: 0rem;
+    --bs-font-sans-serif: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.btn-success {
+    --bs-btn-bg: var(--bs-green);
+    --bs-btn-border-color: var(--bs-green);
+    --bs-btn-hover-bg: #138D7F;
+    --bs-btn-hover-border-color: #41AB82;
+    --bs-btn-active-bg: #41AB82;
+    --bs-btn-active-border-color: #77C87D;
+    --bs-btn-disabled-bg: var(--bs-green);
+    --bs-btn-disabled-border-color: var(--bs-green);
+}
+
+
+.btn-primary {
+    --bs-btn-color: #0e8ebe;
+    --bs-btn-bg: #cae6f1;
+    --bs-btn-border-color: #cae6f1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0e8ebe;
+    --bs-btn-hover-border-color: #0e8ebe;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0e8ebe;
+    --bs-btn-active-border-color: #0e8ebe;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #cae6f1;
+    --bs-btn-disabled-border-color: #cae6f1;
+}
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+}
+
+.bg-size-cover {
+    background-size: cover;
+}
+
+.bg-size-full {
+    background-position: left center;
+    background-size: 100%;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offcanvas {
+    background-color: #18140b;
+}
+
+.header {
+    background-color: #18140b;
+}
+
+.header-logo {
+    width: 100px;
+}
+
+.header a,
+.header .bi {
+    color: #fff;
+}
+
+.header a:hover,
+.header a:focus,
+.header .bi:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #77C87D;
+}
+
+.dropdown-item {
+    color: #222 !important;
+    ;
+    font-size: .8rem;
+}
+
+.home-swiper .swiper-slide {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.home-swiper .swiper-slide img {
+    mix-blend-mode: darken;
+}
+
+.home-swiper .swiper-button-next,
+.home-swiper .swiper-button-prev {
+    color: #fff;
+    padding: 20px;
+}
+
+.home-swiper .swiper-button-next:after,
+.home-swiper .swiper-button-prev:after {
+    display: none;
+}
+
+.otel-list {
+    margin-top: 0px;
+}
+
+.otels-item-info {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-align: right;
+    pointer-events: none;
+}
+
+.otels-item {
+    background: white;
+}
+
+.otels-item img {
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.otels-item:hover img {
+    opacity: .5;
+    transition: all .3s ease-in-out;
+}
+
+.lcr-swiper-next,
+.lcr-swiper-prev {
+    padding: 20px;
+}
+
+.lcr-swiper-next i,
+.lcr-swiper-prev i {
+    color: #fff;
+}
+
+.lcr-swiper-next:after,
+.lcr-swiper-prev:after {
+    display: none;
+}
+
+.lcr-swiper-next {
+    right: 30px !important;
+    ;
+}
+
+.lcr-swiper-prev {
+    left: 30px !important;
+}
+
+.icon-sunrise {
+    background-image: url(/Content/upload/sunrise.png);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 46%;
+    transform: translateX(-53%);
+    z-index: 99;
+}
+
+.icon-sports {
+    background-image: url(/Content/upload/sports.png);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    top: -60px;
+    left: 55%;
+    transform: translateX(-50%);
+    z-index: 99;
+}
+
+.lcrk-swiper-next,
+.lcrk-swiper-prev {
+    padding: 20px;
+}
+
+.lcrk-swiper-next i,
+.lcrk-swiper-prev i {
+    color: #fff;
+}
+
+.lcrk-swiper-next:after,
+.lcrk-swiper-prev:after {
+    display: none;
+}
+
+.lcrk-swiper-next {
+    right: 30px !important;
+    ;
+}
+
+.lcrk-swiper-prev {
+    left: 30px !important;
+}
+
+.line {
+    display: inline-block;
+    width: 50px;
+    background: black;
+    height: 2px;
+    margin: 20px 0 10px;
+}
+
+.bg-bird {
+    background-image: url(/Content/upload/big-bird.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: -80px;
+    left: -20px;
+    z-index: -1;
+}
+
+.bg-bird-blue {
+    background-image: url(/Content/upload/alanya/big-bird-blue.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: -80px;
+    left: -20px;
+    z-index: 1;
+}
+
+.bg-bird-gray {
+    background-image: url(/Content/upload/alanya/big-bird-gray.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: -80px;
+    right: -20px;
+    z-index: 1;
+    opacity: .4;
+}
+
+.news-item-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 20px;
+    background: rgb(238, 255, 71);
+    background: linear-gradient(0deg, rgba(238, 255, 71, .6) 0%, rgba(238, 255, 71, .3) 50%, rgba(238, 255, 71, 0) 100%);
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    transition: all .3s ease-in-out;
+    height: 130px;
+    text-shadow: 0px 0px 2px BLACK;
+}
+
+.news-date {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.news-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.news-link {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.news-item:hover .news-item-info {
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+
+footer {
+    background-color: #18140b;
+}
+
+footer .nav-link {
+    font-size: 13px !important;
+}
+
+.safe-tourisim {
+    z-index: 1;
+    left: 60px;
+    bottom: 30px;
+}
+
+.swiper-honeymoon-block {
+    width: 60%;
+    bottom: 0;
+    right: -25px;
+    z-index: 1;
+}
+
+
+.swiper-honeymoon-thumbs {
+    padding: 70px 0 30px 160px;
+}
+
+.swiper-honeymoon-thumbs .swiper-slide div {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: 5px solid white;
+}
+
+.swiper-button-next.swiper-honeymoon-next,
+.swiper-button-prev.swiper-honeymoon-prev {
+    bottom: 20px;
+    top: auto;
+    right: 15px;
+}
+
+.swiper-button-prev.swiper-honeymoon-prev {
+    right: auto;
+    left: 0px;
+}
+
+.swiper-button-next.swiper-honeymoon-next::after,
+.swiper-button-prev.swiper-honeymoon-prev::after {
+    font-size: 30px;
+    color: black;
+}
+
+.swiper-long-stay-block {
+    width: 60%;
+    bottom: 0;
+    left: -25px;
+    z-index: 1;
+}
+
+.swiper-long-stay-thumbs {
+    padding: 70px 0 30px 160px;
+}
+
+.swiper-long-stay-thumbs .swiper-slide div {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: 5px solid white;
+}
+
+.swiper-button-next.swiper-long-stay-next,
+.swiper-button-prev.swiper-long-stay-prev {
+    bottom: 20px;
+    top: auto;
+    right: 15px;
+}
+
+.swiper-button-prev.swiper-long-stay-prev {
+    right: auto;
+    left: 0px;
+}
+
+.swiper-button-next.swiper-long-stay-next::after,
+.swiper-button-prev.swiper-long-stay-prev::after {
+    font-size: 30px;
+    color: black;
+}
+
+.swiper-honeymoon,
+.swiper-long-stay,
+.swiper-aboutus {
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.swiper-honeymoon-block,
+.swiper-long-stay-block,
+.swiper-aboutus-block {
+    display: none;
+}
+
+
+.honeymoon-opportunities {
+    display: none;
+}
+
+.bg-child-club {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(3, 110, 114, 1) 0%, rgba(3, 110, 114, 1) 90%);
+}
+
+.swiper-child-club-nav {
+    position: relative;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.swiper-child-club-next,
+.swiper-child-club-prev {
+    position: relative !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.swiper-child-club-next::after,
+.swiper-child-club-prev::after {
+    display: none;
+}
+
+.swiper-child-club-next i,
+.swiper-child-club-prev i {
+    font-size: 30px;
+}
+
+.swiper-child-club-nav .text-success {
+    color: #fff !important;
+}
+
+
+
+.btn-swiper-next,
+.btn-swiper-prev {
+    padding: 20px;
+}
+
+.btn-swiper-next i,
+.btn-swiper-prev i {
+    color: #fff;
+}
+
+.btn-swiper-next:after,
+.btn-swiper-prev:after {
+    display: none;
+}
+
+.btn-swiper-next {
+    right: 30px !important;
+    ;
+}
+
+.btn-swiper-prev {
+    left: 30px !important;
+}
+
+
+.swiper-aboutus-block {
+    width: 60%;
+    bottom: 0;
+    right: -25px;
+    z-index: 1;
+}
+
+
+.swiper-aboutus-thumbs {
+    padding: 70px 0 30px 160px;
+}
+
+.swiper-aboutus-thumbs .swiper-slide div {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: 5px solid white;
+}
+
+.swiper-button-next.swiper-aboutus-next,
+.swiper-button-prev.swiper-aboutus-prev {
+    bottom: 20px;
+    top: auto;
+    right: 15px;
+}
+
+.swiper-button-prev.swiper-aboutus-prev {
+    right: auto;
+    left: 0px;
+}
+
+.swiper-button-next.swiper-aboutus-next::after,
+.swiper-button-prev.swiper-aboutus-prev::after {
+    font-size: 30px;
+    color: black;
+}
+.konaklama-text{
+    font-size: calc(3rem + .9vw) !important;
+    transform: translateX(0px) rotate(-180deg)!important;
+}
+
+.accomodation-gallery{
+    background-image: url(/Content/upload/alanya/konaklama/bg-gallery.jpg);
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-position: center bottom;
+}
